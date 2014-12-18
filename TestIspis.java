@@ -11,7 +11,7 @@ public class TestIspis {
 		//System.out.println(o1.toString());
 		System.out.println(o1.getPovrsina() * 7);
 		System.out.println(k2.getPovrsina() + k3.getPovrsina() - k1.getPovrsina() * 2);
-		System.out.println(p1.getPovrsina() + p2.getPovrsina());
+		System.out.println(p1.getPovrsina() *2 + p2.getPovrsina());
 		System.out.println("Ukupna povrsina voza je =");
 		System.out.println(o1.getPovrsina() * 7 - 2 * k1.getPovrsina() + k2.getPovrsina() + k3.getPovrsina() +  2 * p1.getPovrsina() + p2.getPovrsina());
 	}
